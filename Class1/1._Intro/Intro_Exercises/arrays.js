@@ -43,7 +43,7 @@ console.log(diet);
 
 // --------------------------------------
 // Exercise 5 - Remove element
-diet.splice(-1,1);
+diet.splice(-1);
 console.log(diet);
 // You don't like kale at all. Remove the LAST element of the array.
 // Don't remove by index. You know in advance that it's the last in the array because you are too full already. 
