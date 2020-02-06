@@ -27,8 +27,26 @@ var three = 98;
 
 var sum = parseFloat(one+two+three);
 var average = 153/3;
-console.log(parseFloat(average).toFixed(3))
+console.log(parseFloat(average).toFixed(3));
 
 // Show in the console the avg. with 5 decimals
 
+// --------------------------------------
+
+// --------------------------------------
+// Exercise 6 - Get the character by index
+
+var letters = "abc"
+// Get me the character "c"
+var singleletter = letters.charAt(2);
+console.log(singleletter);
+
+// --------------------------------------
+// Exercise 7 - Replace
+
+var fact = "You are learning javascript!";
+
+var capital = fact.replace("j" , "J");
+// capitalize the J in Javascript
+console.log(capital);
 // --------------------------------------
